@@ -1,4 +1,4 @@
-.sub-menu-1{
+/* .sub-menu-1{
     display: none;
 }
 .navbar ul li:hover .sub-menu-1{
@@ -6,7 +6,6 @@
     position: absolute;
     background-color: rgb(243, 243, 245);
     margin-top: 3px;
-    /* margin-left: -35px; */
 }
 .navbar ul li:hover .sub-menu-1 ul{
     display: block;
@@ -24,7 +23,84 @@
 }
 .f-heading h2{
     font-size: 22px;
+} */
+
+
+
+
+
+/* navbar */
+.navbar{
+    background-color: #212529;
+    display: flex;
 }
+.nav-logo img{
+    width: 80px;
+}
+.nav-logo{
+    margin-left: 30px;
+}
+.s-design{
+    font-size: 17px;
+    padding: 10px 8px;
+}
+.header-icon a{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.header-icon a:hover{
+    color: #45c3fd;
+    transition: all 0.2s ease-in-out;
+}
+.s-margin{
+    margin-right: 50px;
+}
+.search-bar input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+}
+.search-bar button{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    background-color: #45c3fd;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: -30px;
+    margin-top: -7px;
+}
+.search-bar button:hover{
+    color: #fff;
+    background-color: #45c3fd;
+}
+.search-bar button i{
+    font-size: 22px;
+}
+.s-navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.s-navbar ul li a{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+.s-navbar ul li a:hover{
+    color: #b8b9ba;
+}
+.e-space{
+    /* margin-left: 50%; */
+    margin-left: 300px;
+}
+
+
+
+
+
+
 .catagory{
     display: inline-block;
     background-color: #f2f4f8;
@@ -70,4 +146,59 @@
     font-size: 18px;
     font-weight: 600;
     color: #ef4a23;
+}
+
+/* footer section */
+footer{
+    background-color: #212529;
+    margin-top: 50px;
+}
+.s-map iframe{
+    width: 100%;
+    margin-top: 50px;
+}
+.copy-text{
+    display: flex;
+    color: rgb(236, 234, 234);
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0;
+}
+.f-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-link a{
+    color: #fff;
+    text-decoration: none;
+}
+.im-link a{
+    display: block;
+    padding: 6px;
+}
+.im-link a:hover{
+    color: #45c3fd;
+    text-decoration: underline;
+}
+.m-icon a{
+    padding: 10px;
+    font-size: 22px;
+}
+.m-icon a:hover{
+    color: #45c3fd;
+}
+.f-contact{
+    padding: 10px;
+}
+.f-contact h3{
+    color: #fff;
+    font-size: 16px;
+}
+.f-contact p{
+    color: #fff;
+}
+.s-app i{
+    font-size: 20px;
+    font-weight: 600;
+    
 }
